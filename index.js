@@ -24,7 +24,7 @@ function parseFormdata (req, opts, cb) {
   assert.equal(typeof opts, 'object', 'multipart-stream: opts should be an object')
   assert.equal(typeof cb, 'function', 'multipart-stream: cb should be a function')
 
-  opts = xtend(content.type(req.headers['content-type']), opts)
+  opts = xtend(content.type(req.headers['content-type'] || ''), opts)
   var dispenser = new pez.Dispenser(opts)
 
   dispenser.on('preamble', function (preamble) {
