@@ -12,7 +12,6 @@
     "content": "^3.0.4",
     "pez": "^2.1.5",
     "pump": "^1.0.2",
-    "spok": "^0.8.1",
     "xtend": "^4.0.1"
   },
   "devDependencies": {
@@ -22,6 +21,7 @@
     "get-server-port": "^1.0.0",
     "pump": "^1.0.2",
     "standard": "^10.0.2",
+    "spok": "^0.8.1",
     "tape": "^4.6.3"
   },
   "keywords": [
